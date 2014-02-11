@@ -4,7 +4,7 @@ import me.blackvein.quests.Quest;
 
 public class InvalidStageException extends Exception {
 	
-	private Quest quest;
+	private Quest quest;s
 	private int stage;
 
 	public InvalidStageException(Quest quest, int stage) {
